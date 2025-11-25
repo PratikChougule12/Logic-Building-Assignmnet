@@ -8,8 +8,7 @@
         {
             printf("Invalid Input \n");
             printf("Row number and column number should be same\n");
-            
-            return ;
+           
         }
 
     for(i = 1; i <= iRow; i++)
@@ -46,3 +45,4 @@ int main()
      return 0;
 
 }
+
