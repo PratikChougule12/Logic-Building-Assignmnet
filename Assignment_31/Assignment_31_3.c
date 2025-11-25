@@ -9,7 +9,7 @@
             printf("Invalid Input \n");
             printf("Row number and column number should be same\n");
             
-            return -1;
+            return ;
         }
 
     for(i = 1; i <= iRow; i++)
@@ -44,4 +44,5 @@ int main()
      Display(iValue1,iValue2);
 
      return 0;
+
 }
