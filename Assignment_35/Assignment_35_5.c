@@ -10,7 +10,7 @@ BOOL Vowel(char str[])
     while(*str != '\0')
     {
         if((*str == 'a')|| (*str == 'e')||(*str == 'i')||(*str == 'o')||(*str == 'u')||
-           (*str == 'A')|| (*str == 'E')||(*str == 'I')||(*str == 'O')||(*str == 'U')                                                                             )
+           (*str == 'A')|| (*str == 'E')||(*str == 'I')||(*str == 'O')||(*str == 'U'))                                                                             )
         {
             iCount++;
             break;
@@ -47,4 +47,5 @@ int main()
     }
 
     return 0;
+
 }
